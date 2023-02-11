@@ -1,0 +1,408 @@
+/* -----------------About section----------- */
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body .mybody{
+  background: #ffffff;
+}
+
+
+
+
+
+section {
+    padding: 0px 0;
+   /* min-height: 100vh;*/
+}
+
+.sec-title{
+position:relative;
+z-index: 1;
+margin-bottom:60px;
+}
+
+.sec-title .title{
+position: relative;
+display: block;
+font-size: 18px;
+line-height: 24px;
+color: #ffc107;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+.sec-title h2{
+position: relative;
+display: block;
+font-size:40px;
+line-height: 1.28em;
+color: #222222;
+font-weight: 600;
+padding-bottom:18px;
+}
+
+.sec-title h2:before{
+position:absolute;
+content:'';
+left:0px;
+bottom:0px;
+width:50px;
+height:3px;
+background-color:#d1d2d6;
+}
+
+.sec-title .text{
+position: relative;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-weight: 400;
+margin-top: 35px;
+}
+
+.sec-title.light h2{
+color: #ffffff;
+}
+
+.sec-title.text-center h2:before{
+left:50%;
+margin-left: -25px;
+}
+
+.list-style-one{
+position:relative;
+}
+
+
+
+
+
+.btn-style-one{
+position: relative;
+display: inline-block;
+font-size: 17px;
+line-height: 30px;
+color: #ffffff;
+padding: 10px 30px;
+font-weight: 600;
+overflow: hidden;
+letter-spacing: 0.02em;
+background-color: #ffc107;
+text-decoration: none;
+}
+
+.btn-style-one:hover{
+background-color: #f2e124;
+color: #ffffff;
+}
+.about-section{
+position: relative;
+padding: 120px 0 70px;
+}
+
+.about-section .sec-title{
+margin-bottom: 45px;
+}
+
+.about-section .content-column{
+position: relative;
+margin-bottom: 50px;
+}
+
+.about-section .content-column .inner-column{
+position: relative;
+padding-left: 30px;
+}
+
+.about-section .text{
+margin-bottom: 20px;
+font-size: 17px;
+line-height: 26px;
+color: #848484;
+font-weight: 400;
+}
+
+.about-section .list-style-one{
+margin-bottom: 45px;
+}
+
+.about-section .btn-box{
+position: relative;
+}
+
+.about-section .btn-box a{
+padding: 15px 50px;
+}
+
+.about-section .image-column{
+position: relative;
+}
+
+.aboutStart img{
+  width: 100%;
+  /* background:  url('images/aboutUs.jpg');
+  height: 100%; */
+}
+
+
+
+
+.image1 img{
+  width: 85%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
+}
+
+/* about---------------- */
+
+section {
+  padding: 60px 0;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-heading h2 {
+display: block;
+font-weight: 700;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.site-heading h2 span {
+color: #ffc107;
+}
+
+.site-heading h4 {
+display: inline-block;
+padding-bottom: 20px;
+position: relative;
+text-transform: capitalize;
+z-index: 1;
+}
+
+.site-heading h4::before {
+background: #d3a63a none repeat scroll 0 0;
+bottom: 0;
+content: "";
+height: 2px;
+left: 50%;
+margin-left: -25px;
+position: absolute;
+width: 50px;
+}
+
+.site-heading h2 span {
+color: #ffc107;
+}
+
+.site-heading {
+margin-bottom: 60px;
+overflow: hidden;
+margin-top: -5px;
+}
+
+.team-area .single-item {
+margin-bottom: 30px;
+
+
+}
+
+.team-area .item .thumb {
+position: relative;
+overflow: hidden;
+z-index: 1;
+
+}
+.team-area .single-item{
+    
+}
+
+.team-area .item .thumb::after {
+background: #232323 none repeat scroll 0 0;
+content: "";
+height: 100%;
+left: 0;
+opacity: 0;
+position: absolute;
+top: 0;
+transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-ms-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+width: 100%;
+}
+
+.team-area .team-items .item:hover .thumb::after {
+opacity: 0.7;
+}
+
+.team-area .item .thumb .overlay {
+top: -100%;
+left: 0;
+padding: 20px;
+position: absolute;
+text-align: center;
+-webkit-transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-ms-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+transition: all 0.35s ease-in-out;
+width: 100%;
+z-index: 1;
+}
+
+.team-area .item:hover .thumb .overlay {
+top: 50%;
+transform: translate(-50%, -50%);
+left: 50%;
+}
+
+.team-area .item .thumb .overlay p {
+color: #ffffff;
+}
+
+.team-area .item .thumb .overlay h4 {
+color: #ffffff;
+display: inline-block;
+position: relative;
+text-transform: uppercase;
+}
+
+.team-area .item:hover .thumb img {
+opacity: .6;
+}
+
+.team-area .item .thumb .social li {
+display: inline-block;
+}
+.team-area .item .thumb .social ul {
+  float: none;
+  }
+.team-area .item .thumb .social li a {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+color: #ffffff;
+display: inline-block;
+height: 40px;
+line-height: 40px;
+margin: 0 2px;
+text-align: center;
+width: 40px;
+}
+
+.team-area .info {
+background: #ffffff none repeat scroll 0 0;
+-moz-box-shadow: 0 0 10px #cccccc;
+-webkit-box-shadow: 0 0 10px #cccccc;
+-o-box-shadow: 0 0 10px #cccccc;
+box-shadow: 0 0 10px #cccccc;
+padding: 40px 20px 20px;
+position: relative;
+text-align: center;
+z-index: 9;
+}
+
+.team-area .info .message {
+height: 50px;
+line-height: 40px;
+margin-left: -25px;
+margin-top: -25px;
+position: absolute;
+text-align: center;
+top: 0;
+width: 50px;
+}
+
+.team-area .info .message a {
+background: #fff none repeat scroll 0 0;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+-moz-box-shadow: 0 0 10px #cccccc;
+-webkit-box-shadow: 0 0 10px #cccccc;
+-o-box-shadow: 0 0 10px #cccccc;
+box-shadow: 0 0 10px #cccccc;
+box-sizing: border-box;
+color: #ffc107;
+display: inline-block;
+font-size: 20px;
+height: 50px;
+line-height: 50px;
+width: 50px;
+}
+
+
+
+.team-area .info h4 {
+font-weight: 600;
+margin-bottom: 5px;
+text-transform: capitalize;
+}
+
+.team-area .info span {
+color: #ffc107;
+font-family: "Poppins",sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+}
+.team-area .info .message a{
+    
+}
+
+
+.team-area .social li.email a {
+background-color: #bd081c;
+}
+
+.team-area .social li.facebook a {
+background-color: #3b5998;
+}
+
+.team-area .social li.google-plus a {
+background-color: #df4a32;
+}
+
+.team-area .social li.linkedin a {
+background-color: #1ab7ea;
+}
+
+.team-area .social li.instagram a {
+background-color: #cd486b;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-area .single-item {
+    padding: 35px;
+    margin-bottom: 0;
+    }
+    .image1 img{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      margin-top: 1px;
+      box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
+      
+    }
+    .about-section{
+      padding-top: 20px  ;
+    }
+    .about-section .content-column{
+      margin-top: 40px;
+    }
+    
+}
+
+/* services page css */
+
